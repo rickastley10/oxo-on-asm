@@ -57,7 +57,7 @@ lw t6, 29(sp)       # permanent 9
 
 li s5, 1
 li s6, 1
-
+# Next time use stack memory instead
 # Changed cell registers to avoid conflicts with s10(x26), s11(x27), t3(x28), t4(x29)
 li x5, 0    # cell 1 (was x21)
 li x6, 0    # cell 2 (was x22)
