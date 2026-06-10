@@ -1,3 +1,8 @@
+# WARNING! this code may not run on any risc-v emulator, because i built it for a buggy risc-v emulator with different features and bugs
+# run it at your own risk
+
+
+
 .data
 space: .string " "
 x: .string "x"
